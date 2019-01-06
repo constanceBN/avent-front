@@ -1,0 +1,14 @@
+<!--<p>
+  {{ dailyLinks }
+</p>-->
+Les liens du jour:
+<ul>
+  <li *ngFor="let link of dailyLinks">
+    {{ link.url }} <br>
+    <br>
+    {{ link.date }} <br>
+    <br>
+    {{ link.topic }}
+    <hr>
+  </li>
+</ul>
